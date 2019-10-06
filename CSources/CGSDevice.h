@@ -11,6 +11,8 @@
 #ifndef CGS_DEVICE_INTERNAL_H
 #define CGS_DEVICE_INTERNAL_H
 
+#import <CoreGraphics/CoreGraphics.h>
+
 #include "CGSConnection.h"
 
 /// Actuates the Taptic Engine underneath the user's fingers.

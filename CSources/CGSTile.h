@@ -10,6 +10,8 @@
 #ifndef CGS_TILE_INTERNAL_H
 #define CGS_TILE_INTERNAL_H
 
+#import <CoreGraphics/CoreGraphics.h>
+
 #include "CGSSurface.h"
 
 typedef size_t CGSTileID;

@@ -30,6 +30,8 @@
 #ifndef CGS_CONNECTION_INTERNAL_H
 #define CGS_CONNECTION_INTERNAL_H
 
+#import <CoreGraphics/CoreGraphics.h>
+
 /// The type of connections to the Window Server.
 ///
 /// Every application is given a singular connection ID through which it can receieve and manipulate

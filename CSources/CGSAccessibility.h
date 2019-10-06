@@ -30,6 +30,8 @@
 #ifndef CGS_ACCESSIBILITY_INTERNAL_H
 #define CGS_ACCESSIBILITY_INTERNAL_H
 
+#import <CoreGraphics/CoreGraphics.h>
+
 #include "CGSConnection.h"
 
 

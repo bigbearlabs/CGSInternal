@@ -30,6 +30,8 @@
 #ifndef CGS_CURSOR_INTERNAL_H
 #define CGS_CURSOR_INTERNAL_H
 
+#import <CoreGraphics/CoreGraphics.h>
+
 #include "CGSConnection.h"
 
 typedef enum : NSInteger {

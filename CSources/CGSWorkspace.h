@@ -30,6 +30,8 @@
 #ifndef CGS_WORKSPACE_INTERNAL_H
 #define CGS_WORKSPACE_INTERNAL_H
 
+#import <CoreGraphics/CoreGraphics.h>
+
 #include "CGSConnection.h"
 #include "CGSWindow.h"
 #include "CGSTransitions.h"

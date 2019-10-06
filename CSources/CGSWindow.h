@@ -30,6 +30,8 @@
 #ifndef CGS_WINDOW_INTERNAL_H
 #define CGS_WINDOW_INTERNAL_H
 
+#import <CoreGraphics/CoreGraphics.h>
+
 #include "CGSConnection.h"
 #include "CGSRegion.h"
 

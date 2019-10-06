@@ -30,6 +30,8 @@
 #ifndef CGS_MISC_INTERNAL_H
 #define CGS_MISC_INTERNAL_H
 
+#import <CoreGraphics/CoreGraphics.h>
+
 #include "CGSConnection.h"
 
 /// Is someone watching this screen? Applies to Apple's remote desktop only?

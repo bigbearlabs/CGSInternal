@@ -31,6 +31,8 @@
 #ifndef CGS_DISPLAYS_INTERNAL_H
 #define CGS_DISPLAYS_INTERNAL_H
 
+#import <CoreGraphics/CoreGraphics.h>
+
 #include "CGSRegion.h"
 
 typedef enum {

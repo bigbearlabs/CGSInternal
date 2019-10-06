@@ -10,6 +10,8 @@
 #ifndef CGS_SPACE_INTERNAL_H
 #define CGS_SPACE_INTERNAL_H
 
+#import <CoreGraphics/CoreGraphics.h>
+
 #include "CGSConnection.h"
 #include "CGSRegion.h"
 

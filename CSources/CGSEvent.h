@@ -10,6 +10,8 @@
 #ifndef CGS_EVENT_INTERNAL_H
 #define CGS_EVENT_INTERNAL_H
 
+#import <CoreGraphics/CoreGraphics.h>
+
 #include "CGSWindow.h"
 
 typedef unsigned long CGSByteCount;

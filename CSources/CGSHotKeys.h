@@ -30,6 +30,9 @@
 #ifndef CGS_HOTKEYS_INTERNAL_H
 #define CGS_HOTKEYS_INTERNAL_H
 
+#import <Foundation/Foundation.h>
+#import <CoreGraphics/CoreGraphics.h>
+
 #include "CGSConnection.h"
 
 /// The system defines a limited number of "symbolic" hot keys that are remembered system-wide.  The

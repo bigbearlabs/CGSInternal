@@ -32,6 +32,8 @@
 #ifndef CGS_DEBUG_INTERNAL_H
 #define CGS_DEBUG_INTERNAL_H
 
+#import <CoreGraphics/CoreGraphics.h>
+
 #include "CGSConnection.h"
 
 /// The set of options that the Window Server

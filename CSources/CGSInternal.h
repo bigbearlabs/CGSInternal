@@ -32,6 +32,7 @@
 
 #include <Carbon/Carbon.h>
 #include <ApplicationServices/ApplicationServices.h>
+#import <CoreGraphics/CoreGraphics.h>
 
 // WARNING: CGSInternal contains PRIVATE FUNCTIONS and should NOT BE USED in shipping applications!
 

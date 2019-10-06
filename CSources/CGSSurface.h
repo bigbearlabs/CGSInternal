@@ -10,6 +10,8 @@
 #ifndef CGS_SURFACE_INTERNAL_H
 #define CGS_SURFACE_INTERNAL_H
 
+#import <CoreGraphics/CoreGraphics.h>
+
 #include "CGSWindow.h"
 
 typedef int CGSSurfaceID;

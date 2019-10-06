@@ -30,6 +30,8 @@
 #ifndef CGS_SESSION_INTERNAL_H
 #define CGS_SESSION_INTERNAL_H
 
+#import <CoreGraphics/CoreGraphics.h>
+
 #include "CGSInternal.h"
 
 typedef int CGSSessionID;

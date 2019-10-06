@@ -30,6 +30,8 @@
 #ifndef CGS_TRANSITIONS_INTERNAL_H
 #define CGS_TRANSITIONS_INTERNAL_H
 
+#import <CoreGraphics/CoreGraphics.h>
+
 #include "CGSConnection.h"
 
 typedef enum {

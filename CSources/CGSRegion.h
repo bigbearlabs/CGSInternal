@@ -30,6 +30,9 @@
 #ifndef CGS_REGION_INTERNAL_H
 #define CGS_REGION_INTERNAL_H
 
+#import <CoreGraphics/CoreGraphics.h>
+#import <Carbon/Carbon.h>
+
 typedef CFTypeRef CGSRegionRef;
 typedef CFTypeRef CGSRegionEnumeratorRef;
 
@@ -42,9 +45,6 @@ CG_EXTERN CGError CGSNewRegionWithRect(const CGRect *rect, CGSRegionRef *outRegi
 
 /// Creates a region from a list of `CGRect`s.
 CG_EXTERN CGError CGSNewRegionWithRectList(const CGRect *rects, int rectCount, CGSRegionRef *outRegion);
-
-/// Creates a new region from a QuickDraw region.
-CG_EXTERN CGError CGSNewRegionWithQDRgn(RgnHandle region, CGSRegionRef *outRegion);
 
 /// Creates an empty region.
 CG_EXTERN CGError CGSNewEmptyRegion(CGSRegionRef *outRegion);
