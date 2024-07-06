@@ -12,7 +12,6 @@ let package = Package(
     targets: [
         .target(
             name: "CGSInternal",
-            path: "Sources",
             publicHeadersPath: "CSources"
         )
     ]
