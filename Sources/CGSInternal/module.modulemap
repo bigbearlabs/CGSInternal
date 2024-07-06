@@ -1,23 +1,23 @@
-//module MyLibrary { 
-//    header "CSources/CGSAccessibility.h"
-//    header "CSources/CGSCIFilter.h"
-//    header "CSources/CGSConnection.h"
-//    header "CSources/CGSCursor.h"
-//    header "CSources/CGSDebug.h"
-//    header "CSources/CGSDevice.h"
-//    header "CSources/CGSDisplays.h"
-//    header "CSources/CGSEvent.h"
-//    header "CSources/CGSHotKeys.h"
-//    header "CSources/CGSInternal.h"
-//    header "CSources/CGSMisc.h"
-//    header "CSources/CGSRegion.h"
-//    header "CSources/CGSSession.h"
-//    header "CSources/CGSSpace.h"
-//    header "CSources/CGSSurface.h"
-//    header "CSources/CGSTile.h"
-//    header "CSources/CGSTransitions.h"
-//    header "CSources/CGSWindow.h"
-//    header "CSources/CGSWorkspace.h"
-//   
-//    export * 
-//}
+module CGSInternal { 
+    header "CSources/CGSAccessibility.h"
+    header "CSources/CGSCIFilter.h"
+    header "CSources/CGSConnection.h"
+    header "CSources/CGSCursor.h"
+    header "CSources/CGSDebug.h"
+    header "CSources/CGSDevice.h"
+    header "CSources/CGSDisplays.h"
+    header "CSources/CGSEvent.h"
+    header "CSources/CGSHotKeys.h"
+    header "CSources/CGSInternal.h"
+    header "CSources/CGSMisc.h"
+    header "CSources/CGSRegion.h"
+    header "CSources/CGSSession.h"
+    header "CSources/CGSSpace.h"
+    header "CSources/CGSSurface.h"
+    header "CSources/CGSTile.h"
+    header "CSources/CGSTransitions.h"
+    header "CSources/CGSWindow.h"
+    header "CSources/CGSWorkspace.h"
+   
+    export * 
+}
