@@ -10,9 +10,6 @@ let package = Package(
         ),
     ],
     targets: [
-        .target(
-            name: "CGSInternal",
-            publicHeadersPath: "CSources"
-        )
+      .systemLibrary(name: "CGSInternal")
     ]
 )
